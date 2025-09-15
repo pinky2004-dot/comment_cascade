@@ -2,7 +2,7 @@
 
 A Reddit-based word-guessing game where players try to identify famous Reddit posts based on progressively revealed comments. Built on Reddit's Devvit platform, this game combines the thrill of deduction with the authentic content that makes Reddit special.
 
-## 🎮 How It Works
+## How It Works
 
 **Comment Cascade** presents players with redacted comments from real Reddit posts. Your mission: guess the original Reddit post URL! 
 
@@ -13,7 +13,7 @@ A Reddit-based word-guessing game where players try to identify famous Reddit po
 
 The game features a **progressive reveal system** similar to Wordle - making each wrong guess more helpful than the last, while still maintaining the challenge.
 
-## 🚀 Project Story
+## Project Story
 
 ### The Vision
 The idea for Comment Cascade emerged from a simple observation: Reddit's comment sections often contain the most interesting and revealing content about a post. What if we could turn this into a game? A game where players use their knowledge of Reddit culture, subreddit patterns, and comment context to solve puzzles.
@@ -73,7 +73,7 @@ The app is now fully functional with:
 - ✅ **Type Safety**: Full TypeScript implementation
 - ✅ **Performance Optimized**: Redis caching and efficient API usage
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **[Devvit](https://developers.reddit.com/)**: Reddit's developer platform for immersive games
 - **[React](https://react.dev/)**: Modern UI framework with hooks and state management
@@ -83,7 +83,7 @@ The app is now fully functional with:
 - **[Vite](https://vite.dev/)**: Fast build tool for development and production
 - **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework
 
-## 🎯 Game Features
+## Game Features
 
 ### Core Gameplay
 - **5 Redacted Comments**: Carefully selected from real Reddit posts
@@ -97,7 +97,7 @@ The app is now fully functional with:
 - **Responsive Design**: Optimized for all screen sizes
 - **Error Recovery**: Graceful handling of API failures
 
-## 🚀 Deployment
+## Deployment
 
 The app is currently in **playtest mode** and ready for production deployment:
 
@@ -113,11 +113,11 @@ The app is currently in **playtest mode** and ready for production deployment:
 3. **Reddit Review**: 1-2 week review process
 4. **Public Launch**: Available to all Reddit users worldwide
 
-## 🎮 Try It Now
+## Try It Now
 
 **Playtest Version**: [https://www.reddit.com/r/comment_cascade_dev2/?playtest=comment-cascade](https://www.reddit.com/r/comment_cascade_dev2/?playtest=comment-cascade)
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - **Leaderboards**: Track high scores and streaks
 - **Difficulty Levels**: Easy, Medium, Hard modes
@@ -125,7 +125,7 @@ The app is currently in **playtest mode** and ready for production deployment:
 - **Achievements**: Unlock badges for different accomplishments
 - **Social Features**: Share scores and compete with friends
 
-## 🤝 Contributing
+## Contributing
 
 This project was built as a demonstration of Reddit's Devvit platform capabilities. The codebase showcases:
 - Modern React patterns with hooks and state management
@@ -134,10 +134,6 @@ This project was built as a demonstration of Reddit's Devvit platform capabiliti
 - Caching strategies for performance optimization
 - Type-safe development practices
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**Built with ❤️ using Reddit's Devvit platform**
+This project is licensed under the MIT License.
