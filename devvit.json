@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "comment-cascade",
+  "description": "Guess the Reddit post from redacted comments!",
+  "features": [
+    {
+      "type": "postType",
+      "id": "comment_cascade_game",
+      "name": "Comment Cascade Game",
+      "description": "Guess the Reddit post from redacted comments!"
+    }
+  ],
+  "post": {
+    "dir": "dist/client",
+    "entrypoints": {
+      "default": {
+        "entry": "index.html"
+      }
+    }
+  },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "media": {},
+  "menu": {
+    "items": [
+      {
+        "label": "Create a new post",
+        "description": "comment-cascade",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/post-create"
+      }
+    ]
+  },
+  "triggers": {
+    "onAppInstall": "/internal/on-app-install"
+  },
+  "dev": {
+    "subreddit": "comment_cascade_dev2"
+  }
+}
